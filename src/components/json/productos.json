@@ -1,0 +1,9 @@
+[
+    {"id":1, "nombre":"Cuadro Nomai", "descripcion":"Un cuadro para colgar en tu pared", "tamaño":"180x100 cm", "imagen":"/images/05.png", "precio":75, "stock":10, "categoria":"Mediano"},
+    {"id":2, "nombre":"Cuadro Campfire", "descripcion":"Un cuadro para colgar en tu pared", "tamaño":"180x100 cm", "imagen":"/images/01.png", "precio":75, "stock":10, "categoria":"Mediano"},
+    {"id":3, "nombre":"Cuadro Swamp", "descripcion":"Un cuadro para colgar en tu pared", "tamaño":"220x130 cm", "imagen":"/images/02.png", "precio":100, "stock":10, "categoria":"Grande"},
+    {"id":4, "nombre":"Cuadro Nebula", "descripcion":"Un cuadro para colgar en tu pared", "tamaño":"220x130 cm", "imagen":"/images/03.png", "precio":100, "stock":10, "categoria":"Grande"},
+    {"id":5, "nombre":"Cuadro Sarcophagus", "descripcion":"Un cuadro para colgar en tu pared", "tamaño":"100x70 cm", "imagen":"/images/04.png", "precio":50, "stock":10, "categoria":"Pequeño"},
+    {"id":6, "nombre":"Cuadro Sistem", "descripcion":"Un cuadro para colgar en tu pared", "tamaño":"100x70 cm", "imagen":"/images/06.png", "precio":50, "stock":10, "categoria":"Pequeño"}
+
+]

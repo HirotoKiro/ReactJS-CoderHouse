@@ -17,7 +17,7 @@ const Banner = () => {
                 </div>
                 <div className="col-md-6 text-center">
                     <p><img src="images/03.png" alt="ropa" className="img-fluid" /></p>
-                    <h4>Come malvadiscos!</h4>
+                    <h4>Come malvaviscos!</h4>
                     <p><a href="https://twitter.com/Mobius_Games?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_black" className="btn btn-dark">Siguenos!</a></p>
                 </div>
                 <div className="col-md-6 text-center">

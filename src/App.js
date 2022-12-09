@@ -1,18 +1,22 @@
 import React from "react";
-import Banner from "./components/Banner";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
+import NavBar from "./components/Navbar";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Header />
-      <ItemListContainer greeting={"Bienvenidos a Outer Wilds Ventures!"} />
-      <Banner />
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path={"/"} element={<ItemListContainer />} />
+        <Route path={"/category/:id"} element={<ItemListContainer />} />
+        <Route path={"/item/:id"} element={<ItemDetailContainer />} />
+      </Routes>
       <Footer />
-    </div>
-  )
+    </BrowserRouter>
+  );
 }
 
 export default App;
