@@ -21,3 +21,7 @@ code {
   padding-top: 10px;
   margin: 5px;
 }
+
+.btn-outline-warning{
+  color: rgb(247, 170, 27);
+}
